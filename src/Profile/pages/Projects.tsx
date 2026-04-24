@@ -33,7 +33,7 @@ function Projects() {
           {project?.imgs?.map((item) =>(
             
             <img className="bg-dark-50 w-full h-full object-center object-contain cursor-pointer hover:-translate-y-1 duration-300" 
-              onClick={() => window.open(`/images/${item}`, '_blank')} 
+              onClick={() => window.open(`${item}`, '_blank')} 
               src={item} key={item} 
             />
             
