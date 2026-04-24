@@ -29,7 +29,7 @@ function ProjectsSection() {
                             </div>
                         </div>
 
-                        <p className='text-center px-3 py-3 text-sm text-gray-300 flex-1 line-clamp-3'>
+                        <p className='text-center px-3 py-3 text-sm text-gray-300 flex-1 mb-3'>
                             {item.description}
                         </p>
 

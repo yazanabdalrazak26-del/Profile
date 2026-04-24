@@ -5,7 +5,7 @@ function SkillsSection() {
     const skills = {
         frontend: ['React', 'TypeScript', 'React Query', 'Tailwind CSS', 'DnD Kit'],
         tools: ['Git', 'GitHub', 'VS Code', 'Vite', 'npm'],
-        backend: ['Firebase', 'Node.js (learning)', 'Express (learning)']
+        backend: ['Firebase', 'Laravel']
     };
 
     return (
