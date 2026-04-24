@@ -1,16 +1,15 @@
+import AboutSection from './AboutSection';
+import SkillsSection from './SkillsSection';
+import ContactSection from './ContactSection';
 
-import AboutSection from './AboutSection'
-import ContactSection from './ContactSection'
-import SkillsSection from './SkillsSection'
-
-function AboutAndConatct() {
-  return (
-    <section className='bg-black w-screen h-screen flex flex-col justify-between text-white mt-10 p-5'>
-        <AboutSection/>
-        <SkillsSection/>
-        <ContactSection/>
-    </section>
-  )
+function AboutAndContact() {
+    return (
+        <section className='bg-black w-full min-h-screen flex flex-col justify-between text-white mt-10 p-4 sm:p-6 md:p-8'>
+            <AboutSection />
+            <SkillsSection />
+            <ContactSection />
+        </section>
+    );
 }
 
-export default AboutAndConatct
+export default AboutAndContact;
