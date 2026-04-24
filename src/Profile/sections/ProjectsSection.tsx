@@ -5,7 +5,7 @@ function ProjectsSection() {
     return (
         <section className="text-white flex flex-col items-center mt-15 w-full px-4">
             <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-center">My Projects</h2>
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full max-w-7xl'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 w-full max-w-7xl'>
                 {projects.map(item => (
                     <Link 
                         key={item.id} 

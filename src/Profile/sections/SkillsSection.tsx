@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCode, faTools, faServer } from '@fortawesome/free-solid-svg-icons';
+
 function SkillsSection() {
     const skills = {
         frontend: ['React', 'TypeScript', 'React Query', 'Tailwind CSS', 'DnD Kit'],
@@ -11,8 +14,13 @@ function SkillsSection() {
                 Technical Skills
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+                
+                
                 <div className="bg-dark-40 rounded-lg p-4">
-                    <h3 className="text-lg font-semibold text-white mb-3">Frontend</h3>
+                    <div className="flex items-center gap-2 mb-3">
+                        <FontAwesomeIcon icon={faCode} className="text-blue-400 text-xl" />
+                        <h3 className="text-lg font-semibold text-white">Frontend</h3>
+                    </div>
                     <div className="flex flex-wrap gap-2">
                         {skills.frontend.map(skill => (
                             <span key={skill} className="bg-dark-20 text-gray-300 px-3 py-1 rounded-full text-xs sm:text-sm">
@@ -21,8 +29,13 @@ function SkillsSection() {
                         ))}
                     </div>
                 </div>
+
+                
                 <div className="bg-dark-40 rounded-lg p-4">
-                    <h3 className="text-lg font-semibold text-white mb-3">Tools</h3>
+                    <div className="flex items-center gap-2 mb-3">
+                        <FontAwesomeIcon icon={faTools} className="text-green-400 text-xl" />
+                        <h3 className="text-lg font-semibold text-white">Tools</h3>
+                    </div>
                     <div className="flex flex-wrap gap-2">
                         {skills.tools.map(skill => (
                             <span key={skill} className="bg-dark-20 text-gray-300 px-3 py-1 rounded-full text-xs sm:text-sm">
@@ -31,8 +44,13 @@ function SkillsSection() {
                         ))}
                     </div>
                 </div>
+
+                
                 <div className="bg-dark-40 rounded-lg p-4">
-                    <h3 className="text-lg font-semibold text-white mb-3">Backend</h3>
+                    <div className="flex items-center gap-2 mb-3">
+                        <FontAwesomeIcon icon={faServer} className="text-purple-400 text-xl" />
+                        <h3 className="text-lg font-semibold text-white">Backend</h3>
+                    </div>
                     <div className="flex flex-wrap gap-2">
                         {skills.backend.map(skill => (
                             <span key={skill} className="bg-dark-20 text-gray-300 px-3 py-1 rounded-full text-xs sm:text-sm">
@@ -41,6 +59,7 @@ function SkillsSection() {
                         ))}
                     </div>
                 </div>
+
             </div>
         </section>
     );
