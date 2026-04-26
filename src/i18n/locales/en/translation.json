@@ -1,0 +1,153 @@
+{
+    "nav":{
+        "projects": "Projects",
+        "about": "About",
+        "skills": "Skills",
+        "experience": "Experience",
+        "contact": "Contact"
+    },
+
+    "hero":{
+        "title": "Yazan Abd Alrazak",
+        "subtitle": "Frontend Developer | React Specialist"
+    },
+
+    "projectsSection": {
+        "title": "My Projects",
+        "projects": [
+            {
+                "id": 1,
+                "title": "GitHub Issue Tracker",
+                "description": "Full-featured issue tracker using GitHub REST API. Features include real-time filtering, sorting, pagination with page caching, drag-and-drop Kanban board, and favorites system with localStorage persistence. Built with modern React patterns and TypeScript.",
+                "tech": ["React", "TypeScript", "React Query", "Tailwind CSS", "DnD Kit"],
+                "imgs": ["/images/issueTracker1.png", "/images/issueTracker2.png"],
+                "github": "https://github.com/yazanabdalrazak26-del/issue-tracker",
+                "demo": "https://issue-tracker.vercel.app"
+            },
+            {
+                "id": 2,
+                "title": "TMDB Movie Search",
+                "description": "Movie and TV show discovery app with infinite scroll, virtual scrolling for performance, responsive grid layout, and real-time search. Integrated TMDB API with React Query caching. Features include filtering by media type, rating display, and detailed view for each title.",
+                "tech": ["React", "TanStack Query", "Tailwind CSS", "TMDB API", "React Query"],
+                "imgs": ["/images/movie2.png", "/images/movie4.png", "/images/movie5.png", "/images/movie6.png", "/images/movie7.png"],
+                "github": "https://github.com/yazanabdalrazak26-del/tmdb-movie-website.git",
+                "demo": "https://tmdb-movie-website.vercel.app"
+            },
+            {
+                "id": 3,
+                "title": "E-Commerce Store",
+                "description": "Basic e-commerce platform with product catalog, shopping cart, and checkout page. Built as a learning project to understand React fundamentals. Features product filtering by category, quantity selection, and cart total calculation. [Legacy Project - Not Maintained]",
+                "tech": ["React", "Context API", "React Router", "CSS Modules", "React Redux"],
+                "imgs": ["/images/e1.png", "/images/e2.png", "/images/e3.png", "/images/e4.png"],
+                "github": "https://github.com/yazanabdalrazak26-del/e-commerce-website",
+                "demo": "https://e-commerce-website.vercel.app",
+                "archived": true
+            },
+            {
+                "id": 4,
+                "title": "Tenant Website",
+                "description": "Property management platform for landlords and tenants. Features include tenant profiles, rent collection tracking, maintenance requests. [Ongoing]",
+                "tech": ["React", "DnD Kit", "Tailwind CSS", "LocalStorage"],
+                "imgs": ["/images/ten1.png", "/images/ten2.png", "/images/ten3.png", "/images/ten4.png", "/images/ten5.png", "/images/ten6.png", "/images/ten7.png"],
+                "github": "https://github.com/yazanabdalrazak26-del/Tenant-website.git",
+                "demo": "#",
+                "ongoing": true
+            }
+        ]
+    },
+
+    
+    "about": {
+      "title": "About Me",
+      "description": "Self-taught frontend developer with 2+ years of experience building web applications using modern technologies. Passionate about creating responsive, performant, and user-friendly interfaces with strong attention to detail.",
+      "whatIDo": "What I Do",
+      "items":{ 
+        "item1": {
+          "title": "Frontend Development",
+          "description": "Build responsive and interactive web applications"
+        },
+        
+        "item2":{
+          "title": "UI/UX Design",
+          "description": "Create clean and user-friendly interfaces"
+        },
+
+        "item3":{
+          "title": "API Integration",
+          "description": "Integrate external services and handle data efficiently"
+        },
+
+        "item4":{
+          "title": "Performance Optimization",
+          "description": "Improve loading speed and overall user experience"
+        }
+      }
+    },
+
+    
+    
+    "skills": {
+      "title": "Technical Skills",
+      "categories": {
+        "frontend": "Frontend",
+        "tools": "Tools",
+        "backend": "Backend"
+      }
+    },
+
+
+    "experience": {
+        "title": "Experience",
+        "responsibilities": "Key Responsibilities",
+        "techStack": "Tech Stack",
+        "items":{ 
+
+          "item1":{
+            "title": "Frontend Developer (Self-taught)",
+            "company": "Personal Projects",
+            "period": "2024 - Present",
+            "description": [
+              "Built 5+ full-stack applications using modern technologies",
+              "Implemented drag-and-drop functionality in applications",
+              "Integrated external services for efficient data handling",
+              "Created responsive designs for all screen sizes"
+            ]
+          },
+
+          "item2":{
+            "title": "React Frontend Development",
+            "company": "Self-Learning",
+            "period": "2024 - 2026",
+            "description": [
+              "Completed multiple projects including task tracking and search apps",
+              "Mastered advanced frontend development concepts",
+              "Learned advanced patterns such as custom hooks and state management",
+              "Built production-ready applications for real-world use"
+            ]
+          },
+
+          "item3":{
+            "title": "Freelance Developer",
+            "company": "Self-employed",
+            "period": "2025 - Present",
+            "description": [
+              "Developed custom websites for local clients",
+              "Developed a medical testing platform for a university professor to manage and deliver exams to students",
+              "Maintained and updated client websites"
+            ]
+          }
+        }
+    },
+
+    "contact":{
+      "title": "Contact",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "country": "Syria",
+      "cv": "Download CV"
+    }
+    
+    
+
+}

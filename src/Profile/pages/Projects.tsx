@@ -1,9 +1,28 @@
 import { useParams } from "react-router-dom";
-import { projects } from "../constants/constants";
+import { useTranslation } from "react-i18next";
+
+
+type Projects = {
+    id: number;
+    title: string;
+    tech: string[];
+    imgs: string[];
+    description:string;
+    github: string;
+
+}
+
 
 function Projects() {
   const { id } = useParams();
+  const {t} = useTranslation();
+
+  const projects = t("projectsSection.projects" , {
+    returnObjects: true
+  }) as Projects[]
+
   const project = projects.find((item) => item.id === Number(id));
+  
 
   if (!project) {
     return <div className="text-white text-center py-20">Project not found</div>;

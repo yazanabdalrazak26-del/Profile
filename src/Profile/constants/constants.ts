@@ -6,7 +6,7 @@ export const projects = [
         tech: ['React', 'TypeScript', 'React Query', 'Tailwind CSS', 'DnD Kit'],
         imgs: ['/images/issueTracker1.png', '/images/issueTracker2.png'],
         github: 'https://github.com/yazanabdalrazak26-del/issue-tracker',
-        demo: 'https://issue-tracker.vercel.app',
+        
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const projects = [
         tech: ['React', 'TanStack Query', 'Tailwind CSS', 'TMDB API', 'React Query'],
         imgs: ['/images/movie2.png', '/images/movie4.png', '/images/movie5.png', '/images/movie6.png', '/images/movie7.png'],
         github: 'https://github.com/yazanabdalrazak26-del/tmdb-movie-website.git',
-        demo: 'https://tmdb-movie-website.vercel.app',
+        
     },
     {
         id: 3,
@@ -24,8 +24,8 @@ export const projects = [
         tech: ['React', 'Context API', 'React Router', 'CSS Modules', 'React Redux'],
         imgs: ['/images/e1.png', '/images/e2.png', '/images/e3.png', '/images/e4.png'],
         github: 'https://github.com/yazanabdalrazak26-del/e-commerce-website',
-        demo: 'https://e-commerce-website.vercel.app',
-        archived: true,
+        
+        
     },
     {
         id: 4,
@@ -34,7 +34,6 @@ export const projects = [
         tech: ['React', 'DnD Kit', 'Tailwind CSS', 'LocalStorage'],
         imgs: ['/images/ten1.png', '/images/ten2.png', '/images/ten3.png', '/images/ten4.png', '/images/ten5.png', '/images/ten6.png', '/images/ten7.png'],
         github: 'https://github.com/yazanabdalrazak26-del/Tenant-website.git',
-        demo: '#',
-        ongoing: true,
+    
     },
 ];
