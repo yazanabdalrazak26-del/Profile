@@ -76,7 +76,7 @@ function ContactSection() {
                 
                 <div className="text-center mt-6">
                     <a 
-                        href="/public/Yazan_Abd_Alrazak.pdf"
+                        href="/Yazan_Abd_Alrazak.pdf"
                         download
                         className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition"
                     >
